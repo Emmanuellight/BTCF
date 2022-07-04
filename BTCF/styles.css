@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    float: none;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.959);
+    padding: 30px; 
+    height: 40px;
+    text-align: center;
+    
+}
+header a {
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.background {
+    background-color: black;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    padding: 100px;
+}
+
+li :active {
+    text-decoration: underline;
+    background-color: rgba(194, 196, 218, 0.664);
+    padding: 3px;
+    border-radius: 7px;
+}
+.logo a {
+    background-image: url("images/logo\ 3.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 88px;
+    position: relative;
+    text-indent: -999999999px;
+    top: -35px;
+    width: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li {
+    display: inline-block;
+    margin-right: 50px;
+}
+section {
+    background-color: black;
+}
+.head {
+    background-color: black;
+    padding: 10px;
+    box-shadow: 10px 7px 10px;
+    border-radius: 100px 0px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font: bolder;
+    text-shadow: 3px 1px  rgba(248, 5, 5, 0.842);
+}
+.inner {
+    background-color: rgba(58, 12, 12, 0.541);
+    padding: 30px;
+    margin: 50px 120px 50px 120px;
+    box-shadow: 10px 7px 10px;
+    border-radius: 100px 0px;
+    text-align: center;
+    
+}
+.inner .div-1 {
+    background-color: white;
+    color: black;
+   
+    margin-right: 30%;  
+}
+.inner .div-a {
+    background-color: red;
+    color: black;
+    margin-left: 30%;
+    
+
+}
+.inner .div-b {
+    background-color: white;
+    color: black;
+    margin-right: 30%;
+}
+.inner .div-c {
+    background-color: red;
+    color: black;
+    margin-left: 30%;
+   
+}
+.inner .div-d {
+    background-color: white;
+    color: black;
+    margin-right: 30%;
+    
+}
+.features {
+    background-color: black; 
+    color: white;
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    margin: auto;
+}
+.features figure {
+    margin: 5px;
+    width: 350x;
+    text-align: center;
+}
+.features figure img {
+    height: 300px;
+    width: 350px;
+    border-radius: 50px;
+}
+footer {
+    background-color: grey;
+    padding: 20px;
+}

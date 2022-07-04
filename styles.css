@@ -1,0 +1,246 @@
+body {
+    background-color: white;
+    color: white;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADERS */
+.background {
+    background-color: whitesmoke;
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    position: relative;
+    padding: 30px;
+}
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+header .mobile {
+    display: none;
+}
+header a {
+    color: black;
+    margin-top: 10px;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li :active {
+    background-color: rgba(194, 196, 218, 0.664);
+    border-radius: 7px;
+    padding: 3px;
+    text-decoration: underline;
+}
+li {
+    display: inline-block;
+    margin: 7px 50px 0 0;
+}
+.logo a {
+    background-image: url("images/logo\ 3.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 88px;
+    position: relative;
+    text-indent: -999999999px;
+    top: -10px;
+    width: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* HEADER MEDIA QUERIES */
+@media screen and (max-width: 1070px) {
+    .background {
+        height: 450px;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .background {
+        height: 390px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 792px) {
+    li {
+        margin-right: 10px;
+    }
+    .background {
+        height: 300px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 593px) {
+    li {
+        margin-right: 0px;
+    }
+    .background {
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width: 545px) {
+    .background {
+        height: 190px;
+    }
+    header .desktop {
+        display: none;
+    }
+    
+    header .mobile {
+        display: inline-block;
+    }
+    .logo a {
+        background-image: url("images/logo\ 3.jpg");
+        background-size: 250px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 150px;
+        position: relative;
+        text-indent: -999999999px;
+        top: -10px;
+        width: 480px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:380px) {
+    .background {
+        height: 190px;
+    }
+}
+@media screen and (max-width:375px) {
+    .background {
+        height: 140px;
+    }
+}
+@media screen and (max-width:280px) {
+    .background {
+        height: 120px;
+    }
+}
+
+/* SECTIONS */
+section {
+    background-color: white;
+}
+.head {
+    background-color: black;
+    box-shadow: 10px 7px 10px;
+    border-radius: 100px 0px;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font: bolder;
+    text-shadow: 3px 1px  rgba(248, 5, 5, 0.842);
+}
+.inner {
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px 0px;
+    box-shadow: 10px 7px 10px;
+    margin: 50px 120px 50px 120px;
+    padding: 30px;
+    text-align: center;
+}
+
+.inner .div-1 {
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    color: black;
+    margin-right: 30%;  
+    padding: 10px;
+}
+
+.inner .div-a {
+    background-color: rgb(100, 18, 18);
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    padding: 10px;
+    margin-left: 30%;
+}
+.inner .div-b {
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    color: black;
+    padding: 10px;
+    margin-right: 30%;
+}
+.inner .div-c {
+    background-color: rgb(112, 21, 21);
+    border-radius: 20px 0px 0px 20px;
+    color: white;
+    padding: 10px;
+    margin-left: 30%;
+}
+.inner .div-d {
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    color: black;
+    padding: 10px;
+    margin-right: 30%;
+}
+
+.features {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+.features figure {
+    margin: auto;
+    text-align: center;
+    width: 350px;
+    
+}
+.features figure img {
+    border-radius: 50px; 
+    box-shadow: 3px 1px 2px white;
+    border: 1px solid white;
+    margin-top: 10px;
+    height: 300px;
+    width: 350px;
+}
+/* RESPONSIVE RULE FOR SECTION */
+@media screen and (max-width:490px) {
+    .inner {
+        background-color: rgba(75, 72, 72, 0.925);
+        border-radius: 100px 0px;
+        box-shadow: 10px 7px 10px;
+        margin: 50px 0px 50px 0px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+/* FOOTER */
+.container {
+    background-color: rgba(22, 22, 48, 0.938);
+    display: flex;
+    justify-content: space-between
+}
+.container .icon img{
+    height: 30px;
+    margin: 5px 0 0 20px;
+}
+.container .phone {
+    margin-top: 3px;
+}
+.container .mail {
+    margin: 10px 20px 0 0 ;
+}

@@ -1,0 +1,146 @@
+body {
+    background-color: white;
+    color: white;
+    float: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* HEADERS */
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+header .mobile {
+    display: none;
+}
+header a {
+    color: black;
+    margin-top: 10px;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li :active {
+    background-color: rgba(194, 196, 218, 0.664);
+    border-radius: 7px;
+    padding: 3px;
+    text-decoration: underline;
+}
+li {
+    display: inline-block;
+    margin: 7px 50px 0 0;
+}
+.logo a {
+    background-image: url("images/logo\ 3.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 88px;
+    position: relative;
+    text-indent: -999999999px;
+    top: -10px;
+    width: 150px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER MEDIA QUERIES */
+@media screen and (max-width: 1070px) {
+
+}
+@media screen and (max-width: 940px) {
+
+}
+@media screen and (max-width: 792px) {
+    li {
+        margin-right: 10px;
+    }
+}
+@media screen and (max-width: 593px) {
+    li {
+        margin-right: 0px;
+    }
+}
+@media screen and (max-width: 545px) {
+    header .desktop {
+        display: none;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    .logo a {
+        background-image: url("images/logo\ 3.jpg");
+        background-size: 250px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        height: 150px;
+        position: relative;
+        text-indent: -999999999px;
+        top: -10px;
+        width: 480px;
+        margin: auto;
+    }
+}
+@media screen and (max-width:380px) {
+
+}
+@media screen and (max-width:375px) {
+
+}
+@media screen and (max-width:280px) {
+
+}
+
+/* SECTIONS */
+section {
+    background-color: Black;
+    margin: 0px;
+    padding: 10px;
+}
+.contacts {
+    background-color: rgb(126, 1, 1);
+    box-shadow: 10px 7px 10px;
+    border-radius: 100px ;
+    margin: 100px 200px 0px 200px;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    font: bolder;
+    text-shadow: 3px 3px 3px black;
+}
+.details {
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 100px 0px;
+    box-shadow: 10px 7px 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: large;
+    margin: 50px 120px 50px 120px;
+    padding: 30px;
+    text-align: center;
+}
+button {
+    font-size: large;
+    background-color: rgb(173, 173, 206);
+    border-radius: 10px;
+}
+
+/* RESPONSIVE RULE FOR SECTION */
+@media screen and (max-width:490px) {
+    .inner {
+        background-color: rgba(75, 72, 72, 0.925);
+        border-radius: 100px 0px;
+        box-shadow: 10px 7px 10px;
+        margin: 50px 0px 50px 0px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+/* FOOTER */
+
